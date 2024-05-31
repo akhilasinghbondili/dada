@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pic.png);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headline {
+    width: 100%;
+    /* background-color: rgb(22, 20, 20);  */
+}
+
+.minihead {
+    width: 1400px;
+    height: 80px;
+    /* background-color: rgb(34, 29, 29); */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px, 25px;
+    cursor: pointer;
+
+}
+
+.minihead h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.minihead ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 50px;
+
+}
+
+.minihead li {
+    font-family: Arial;
+    color: aliceblue;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.minihead ul li:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.minihead .btn {
+    border-radius: 10px;
+    font-size: 20px;
+    width: 204px;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 252, 252);
+    color: rgb(13, 14, 13);
+    cursor: pointer;
+
+}
+
+.minihead .btn:hover {
+    color: rgb(19, 13, 13);
+    background-color: skyblue;
+    transition: 0.5s;
+}
+
+.content h1 {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.content {
+    /* width: 100; */
+    height: 100vh;
+}
+
+.content p{
+    font-size: 25px;
+    text-indent: 70px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text1 {
+    border-radius: 10px;
+    font-size: 20px;
+    width: 204px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(13, 14, 13);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.text1:hover {
+    color: rgb(19, 13, 13);
+    background-color: skyblue;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.t1{
+    font-size: 17px;
+    color: rgb(3, 3, 3);
+    margin-top: 50px;
+    margin: left 10px;
+
+}
+.details{
+    color: black;
+}
+.p1{
+    color: black;
+}
+.gap{
+    color: aliceblue;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: -10%;
+    
+  }
+  .education{
+              
+    height: 700px;
+    background-color: aliceblue;
+
+
+  }
